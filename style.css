@@ -64,6 +64,10 @@ h1, h2 {
     gap: 40px;
 }
 
+.licenses-section {
+    grid-column: span 2;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
