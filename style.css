@@ -60,12 +60,8 @@ h1, h2 {
 
 .content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr; */
     gap: 40px;
-}
-
-.licenses-section {
-    grid-column: span 2;
 }
 
 table {
