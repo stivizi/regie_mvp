@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regie Supabase MVP Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Regie Supabase MVP Demo</h1>
+        <div id="alerts"></div>
+        <div class="controls">
+            <label for="tenant-select">Select Tenant (Advisor ID):</label>
+            <select id="tenant-select"></select>
+            <button onclick="window.location.href='add-license.html'">Add New License</button>
+        </div>
+        <div class="content">
+            <div class="licenses-section">
+                <h2>Advisor Licenses</h2>
+                <table id="licenses-table">
+                    <thead>
+                        <tr>
+                            <th>License Number</th>
+                            <th>Issuing Body</th>
+                            <th>Status</th>
+                            <th>Expiry Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- License rows will be inserted here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="script.js"></script>
+</body>
+</html>
