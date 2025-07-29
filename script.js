@@ -67,7 +67,7 @@ async function populateTenantSelector() {
     uniqueIds.forEach(advisorId => {
         const option = document.createElement('option');
         option.value = advisorId;
-        option.textContent = advisorId;
+        option.textContent = advisorId.toUpperCase();
         tenantSelect.appendChild(option);
     });
 }

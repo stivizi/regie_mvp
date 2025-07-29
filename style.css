@@ -111,3 +111,17 @@ tbody tr.selected {
     display: inline-block;
     width: 120px;
 }
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 15px;
+    color: #1a202c;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.2s;
+}
+
+.back-link:hover {
+    color: #004085;
+    text-decoration: underline;
+}
